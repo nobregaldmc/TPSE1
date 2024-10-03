@@ -1,0 +1,4 @@
+setenv serverip 10.0.0.1
+setenv ipaddr 10.0.0.2
+tftp 0x80000000 /tftpboot/appGpio.bin
+go 0x80000000
